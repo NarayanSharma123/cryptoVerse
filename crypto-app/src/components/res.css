@@ -1,25 +1,68 @@
-.search-bar input{
-    height: 2rem;
-    width: 20rem;
-    position: fixed;
-    top: 1%;
-    left: 35%;
-    padding-left: 5px;
+
+/* tab 768px */
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
+    .navbar ul li a {
+        margin-left: 5rem;
+    }
+    .ex-cards {
+        justify-content: space-between;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    .logo h1 {
+        font-size: 18px;
+    }
+}
+/* mobile 425px */
+@media (max-width: 425px) {
+    .navbar {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .navbar ul {
+        display: flex;
+        list-style: none;
+    }
+    .navbar ul li a {
+        margin-left: 3rem;
+        font-size: 16px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    .logo h1 {
+        font-size: 16px;
+    }
+    .ex-cards {
+        padding-left: 20px;
+    }
+    .image img {
+        width: 50px;
+        height: 50px;
+    }
+    .name {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .price {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .rank {
+        margin-left: 20px;
+        font-size: 16px;
+    }
 }
 
-
-.btns{
-    
-    margin-top: 100px;
-}
-
-@media only screen and (max-width: 600px) {
-.search-bar input{
-    position: fixed;
-    top: 10%;
-    left: 7%;
-}
-.btns{
-    margin-left: 10px;
-}
+@media (max-width: 325px) {
+    .navbar ul li a {
+        margin-left: 1rem;
+        font-size: 16px;
+    }
 }

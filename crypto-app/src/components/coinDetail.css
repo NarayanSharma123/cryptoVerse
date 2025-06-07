@@ -1,6 +1,8 @@
 .coinDetail {
     padding-left: 120px;
     padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .time {
     font-weight: bold;
@@ -45,4 +47,25 @@
     font-weight: bold;
     margin-bottom: 20px;
     margin-left: 20px;
+}
+
+/* tab 768px */
+@media (max-width: 768px) {
+    .coinDetail {
+        flex-direction: column;
+    }
+}
+
+/* mobile 425px */
+@media (max-width: 425px) {
+    .btns {
+        margin: 0 auto;
+    }
+    .btns button {
+        margin-left: 10px;
+    }
+
+    .chart {
+        width: 30rem;
+    }
 }

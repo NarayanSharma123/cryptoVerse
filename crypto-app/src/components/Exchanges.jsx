@@ -3,9 +3,9 @@ import Header from './Header.jsx'
 import axios from 'axios'
 import { Baseurl } from './baseURL.js'
 import Loader from './Loader.jsx'
-// import coin from "../coin.png"
 import "./Exchanges.css";
 import OutModel from './OutModels.jsx'
+import "./res.css"
 
 const Exchanges = () => {
   const [loading, setLoading] = useState(true);
@@ -25,7 +25,7 @@ const Exchanges = () => {
         loading ? <Loader /> : <>
         <Header />
         <OutModel />
-        <div>
+        <div className='exchangesDiv'>
           {
             exchanges.map((item, idx) => {
               return (

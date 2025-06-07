@@ -1,3 +1,8 @@
+.exchangesDiv {
+    margin-top: 48rem;
+    margin-bottom: 5rem;
+}
+
 .ex-cards {
     display: flex;
     justify-content: space-evenly;
@@ -33,7 +38,7 @@
 }
 
 
-
+/* 
 @media only screen and (max-width: 600px) {
   .image img{
     height: 50px;
@@ -57,4 +62,4 @@
     }
     
 
-}
+} */

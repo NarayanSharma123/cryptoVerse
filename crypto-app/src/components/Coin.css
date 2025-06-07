@@ -1,0 +1,59 @@
+.searchCoin {
+    width: 13rem;
+    height: 2rem;
+    position: absolute;
+    top: 1%;
+    left: 32rem;
+    margin-top: 0.5rem;
+    color: white;
+    background: #121212;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 5px;
+}
+.btns {
+    display: flex;
+}
+
+
+/* tab 768px */
+@media (max-width: 768px) {
+    .searchCoin {
+        width: 22rem;
+        top: 6%;
+        left: 14rem;
+    }
+}
+
+/* mobile 425px*/
+@media (max-width: 425px) {
+    .searchCoin {
+        width: 14rem;
+        top: 5%;
+        left: 9rem;
+    }
+}
+
+/* mobile 375px*/
+@media (max-width: 375px) {
+    .searchCoin {
+        width: 12rem;
+        top: 5%;
+        left: 6rem;
+    }
+    .btns {
+        margin-right: 20px;
+    }
+}
+
+/* mobile 325px*/
+@media (max-width: 325px) {
+    .searchCoin {
+        left: 4rem;
+    }
+    .btns button {
+        padding: 7px;
+    }
+}
