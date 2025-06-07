@@ -1,0 +1,48 @@
+.coinDetail {
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.time {
+    font-weight: bold;
+}
+.coinImage img {
+    margin-top: 60px;
+}
+.coinName {
+    font-weight: bold;
+    font-weight: 27px;
+    margin-top: 50px;
+}
+.coinPrice {
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 10px;
+}
+.coinProfit {
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.market-rank {
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.coinDes p {
+    margin-top: 20px;
+}
+.coinDes {
+    width: 20rem;
+}
+
+.btns button {
+    height: 2rem;
+    background-color: orange;
+    border: none;
+    width: 5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
