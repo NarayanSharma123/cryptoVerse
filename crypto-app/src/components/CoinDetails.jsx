@@ -1,12 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-// import Header from './header'
 import { Baseurl } from './baseURL.js'
 import Loader from './Loader.jsx'
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import CoinImage from "../coin.png"
-// import { Link } from "react-router-dom"
 import { BiSolidUpArrow, BiSolidDownArrow } from "react-icons/bi"
 import "./coinDetail.css"
 import { IoPulseOutline } from "react-icons/io5"

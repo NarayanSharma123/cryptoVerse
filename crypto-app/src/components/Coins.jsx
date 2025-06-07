@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import Header from './header.jsx'
+import Header from './Header.jsx'
 import { Baseurl } from './baseURL.js'
 import Loader from './Loader.jsx'
 import axios from 'axios';
