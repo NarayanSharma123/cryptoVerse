@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { Baseurl } from './baseURL'
+import { Baseurl } from './baseURL.js'
 import axios from 'axios';
-import Loader from './Loader'
+import Loader from './Loader.jsx'
 import { useParams } from 'react-router-dom';
 import {
     Chart as ChartJS,

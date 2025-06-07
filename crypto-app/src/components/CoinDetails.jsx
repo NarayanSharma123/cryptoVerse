@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 // import Header from './header'
-import { Baseurl } from './baseURL'
-import Loader from './Loader'
+import { Baseurl } from './baseURL.js'
+import Loader from './Loader.jsx'
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import CoinImage from "../coin.png"
@@ -10,7 +10,7 @@ import CoinImage from "../coin.png"
 import { BiSolidUpArrow, BiSolidDownArrow } from "react-icons/bi"
 import "./coinDetail.css"
 import { IoPulseOutline } from "react-icons/io5"
-import CoinChart from './CoinChart'
+import CoinChart from './CoinChart.jsx'
 
 const CoinDetails = () => {
   const [coin, setCoin] = useState([])

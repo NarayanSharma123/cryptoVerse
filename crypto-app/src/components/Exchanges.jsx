@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import Header from './header'
+import Header from './header.jsx'
 import axios from 'axios'
-import { Baseurl } from './baseURL'
-import Loader from './Loader'
-import coin from "../coin.png"
+import { Baseurl } from './baseURL.js'
+import Loader from './Loader.jsx'
+// import coin from "../coin.png"
 import "./Exchanges.css";
-import OutModel from './OutModels'
+import OutModel from './OutModels.jsx'
 
 const Exchanges = () => {
   const [loading, setLoading] = useState(true);

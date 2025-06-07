@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import Header from './header'
-import { Baseurl } from './baseURL'
-import Loader from './Loader'
+import Header from './header.jsx'
+import { Baseurl } from './baseURL.js'
+import Loader from './Loader.jsx'
 import axios from 'axios';
 import { Link } from "react-router-dom"
 import "./res.css"
